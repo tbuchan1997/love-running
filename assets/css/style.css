@@ -90,10 +90,18 @@ nav {
 /*Main body*/
 
 main {
-    background-color: lightblue;
 /*Make main body take up any surplus room to push footer to bottom of the page*/
     flex: 1 0 auto;
     margin-top: 47px;
+
+}
+
+/*Hero section*/
+
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image.webp') no-repeat center center/cover;
 }
 
 /*Footer*/

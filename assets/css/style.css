@@ -222,6 +222,15 @@ hr {
     color: #3a3a3a;
 }
 
+/*Media query: large/landscape phones (576px +)*/
+
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /*Media query: tablets and larger (768px)*/
 
 @media screen and (min-width: 768px) {
@@ -281,6 +290,11 @@ hr {
         text-align: end;
         align-self: flex-end;
     }
+
+    /*Gallery*/
+    #photos {
+        column-count: 3;
+    }
 }
 
 /*Media query: laptops and larger (992px)*/
@@ -318,5 +332,10 @@ hr {
 
     #benefits-mental > div {
         align-self: flex-end;
+    }
+
+    /*Gallery*/
+    #photos {
+        column-count: 4;
     }
 }

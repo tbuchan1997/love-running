@@ -97,6 +97,8 @@ main {
 /*Make main body take up any surplus room to push footer to bottom of the page*/
     flex: 1 0 auto;
     margin-top: 47px;
+    display: flex;
+    flex-direction: column;
 }
 
 /*Hero section*/
@@ -204,6 +206,15 @@ hr {
     line-height: 0;
 }
 
+/*Signup page*/
+
+#signup {
+    background
+    background-image: url("../images/signup-image.webp");
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+}
 
 
 /*Footer*/
